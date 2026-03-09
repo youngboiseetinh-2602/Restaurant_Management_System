@@ -33,7 +33,6 @@ import static com.javaweb.enums.UserRole.CUSTOMER;
 public class UserServiceImpl implements UserService {
 
     private final JwtTokenProvider jwtTokenProvider;
-
     private final UserRepository userRepository;
     private final ModelMapper modelMapper;
     private final PasswordEncoder passwordEncoder;
